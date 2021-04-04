@@ -1,0 +1,184 @@
+/*Colors and fonts*/
+body{
+	background-color: #f0b27a;
+	 color:#b40e3a;
+	 text-align: justify;
+	 text-align: center;
+	font-family: Times;
+	font-size: 17px;
+}
+
+
+h1 { 
+	font-family: Luminari;
+	font-size: 50px;
+	line-height: 1.6;
+	font-weight: 600;
+	letter-spacing: 5px;
+
+}
+
+h2 {
+	font-family: Chalkduster;
+	font-size: 40px;
+	line-height: 1.6;
+	font-weight: 700;
+	letter-spacing: 2px;
+
+}
+
+h3 {
+	font-family: 'Lobster', cursive;
+	font-size: 28px;
+	font-weight: 550;
+	color: #17707d;
+	
+}
+
+h1,h2,h3 {
+	font-weight: bold;
+}
+
+a {
+
+	text-decoration: none;
+	color:#048B9A;
+	font-weight: bold;
+}
+a:hover {
+	color: #ca76fb;
+	text-decoration: underline;
+}
+
+p{
+	color: black;
+}
+
+/* Design adjustments using id */
+
+#colored{
+	color: #b40e3a;
+	font-size: 20px;
+}
+
+#presentation p {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#paris{
+	margin-top: 20px;
+}
+
+
+
+#Aurore{
+	width: 165px;
+	height: 165px;
+	border-radius: 50%; 
+}
+
+#margelinks{
+	margin-bottom: 50px;
+
+}
+
+#account h2{
+font-size: 30px;
+text-decoration: underline;
+}
+
+/* Custom design with class */
+
+.biathlon-margin{
+	margin-bottom: 20px;
+}
+
+.pictures-margin{
+	margin-bottom: 20px;
+}
+
+.img-bordered{
+	border: 3px solid black;
+}
+
+.img-rounded{
+	border-radius: 10%;
+}
+
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
+
+.btn{
+	background-color: #f9cbcb;
+	padding: 8px 13px;
+	border-radius: 10px;
+}
+
+.btn:hover {
+	background-color: #cbf9e9;
+}
+
+.container{ 
+	width: 1000px;
+	background: #FFEBC9;
+	border-radius: 10px;
+	margin: 80px auto;
+	box-shadow: 0px 5px 15px;
+	padding: 30px 30px;
+	text-align: center;
+}
+
+.card{
+	background: #FFEBC9;
+	padding: center;
+	border:2px solid black ;
+	box-shadow: 0px 5px 15px ;
+	border-radius: 10px;
+	width: 600px;
+	margin: 40px auto;
+	text-align: center;
+	
+
+}
+
+
+
+.text-size{
+	font-size: 20px;
+}
+
+
+
+
+@media(max-width: 960px) {
+  .card{
+  	width: 700px;
+  }
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 720px) {
+  .card{width: 500px}
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 540px) {
+  .card{width: 300px}
+  .container {
+    width: 300px;
+  }
+}
+
